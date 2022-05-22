@@ -13,6 +13,4 @@
 |
 */
 
-$router->get('/', function () use ($router) {
-    return $router->app->version();
-});
+$router->get('/api/v1/get-fibonacci-value/{index}', [App\Http\Controllers\Api\V1\FibonacciController::class, 'getFibonacciValue']);

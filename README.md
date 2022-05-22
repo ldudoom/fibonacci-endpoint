@@ -1,8 +1,8 @@
 # Fibonacci Value
-- En primer lugar genero el controlador que tendra el metodo que devolvera el valor de la serie fibonacci de acuerdo al indice dado.
-- Genero una interface que tiene el metodo para obtener el valor fibonacci (App\Interfaces\FibonacciInterface.php).
-- Genero la clase donde se implementara el metodo para obtener el valor de fibonacci (App\Services\Fibonacci.php).
-- Utilizlo un bucle while para obtener el valor de fibonacci esperado.
-- Importo la Interface al controlador
-- Utilizo el metodo implementado para obtener el valor y devolverlo en el endpoint
-- Genero la Ruta para utilizar el endpoint en el archvio routes/web.php
+- First I generate the controller that will have the method that will return the value of the fibonacci series according to the given index.
+- I generate an interface that has the method to obtain the fibonacci value (AppInterfacesFibonacciInterface.php).
+- I generate the class where the method to obtain the fibonacci value will be implemented (App\Services\Fibonacci.php).
+- I use a while loop to obtain the expected fibonacci value.
+- I import the Interface to the controller
+- I use the implemented method to get the value and return it in the endpoint.
+- I generate the Route to use the endpoint in the routes/web.php file.
